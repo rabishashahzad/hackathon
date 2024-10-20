@@ -1,0 +1,77 @@
+body{
+    font-family: 'Arial', sans-serif;
+    background-color: pink;
+    margin:0;
+    padding :150px;
+}
+
+.resume-conatiner {
+    display:flex;
+    background-color: white;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(36, 90, 126, 0.1);
+}
+.left-section {
+    background-color: #0c0a0e;
+    color: white;
+    padding: 20px;
+    width: 55%;
+    text-align: center;
+    border-right :5px solid blue;
+}
+ img{
+    width: 150px; ;
+    height: 150px; ;
+    margin-top: 10%;
+    border-radius:50%; 
+ border-radius:5px soild blue;
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    width:70px;
+    height: 70px;
+    margin-top: 10% ;
+    border-radius:50%;
+    border:5px solid blue;
+    margin-bottom:50px ;
+}
+h1{
+    font-size: 50px;
+    margin: 10px 0;
+    margin-bottom: 30px; 
+    text-align: center;
+}
+
+h3{
+    font-size: 40px;
+    padding: 6%;
+    margin: 20px 0 10px;
+    color: black;
+    border-radius: 10px #040357;
+    box-shadow: #e63946;
+    margin: 5%;
+}
+ul li{
+    list-style-type: fill round;
+    padding: 10;
+    margin: 5px 0;
+}
+
+.right-section{
+    padding: 20px;
+    width: 75%;
+}
+ button{
+    font-family:Arial, sans-serif;
+    border-radius: 20px ;
+    box-shadow: 0 0 15px blue;
+    cursor:pointer;
+    margin-top:10px ;
+    font-size: 18px;
+}
+button:hover{
+    background-color: #ff737c;
+}
